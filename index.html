@@ -1,114 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gospelhope Oquong - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> <!-- Modern Font -->
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+/>
+  <title>Gospelhope Oquong — Software Engineer & QE</title>
+  <meta name="description" content="Product-focused Software Engineer & QE — building scalable, user-centric, AI-powered solutions. AWS Certified. Northeastern MS (’27).">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Gospelhope Oquong</h1>
-            <p>Software Quality Engineer | AWS Certified Developer | Customer-Centric Solutions</p>
-        </div>
-    </header>
+  <!-- Header / Nav -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Gospelhope Oquong</span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">☾</button>
+    </div>
+  </header>
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>Hi, I’m Gospelhope Oquong, a passionate software quality engineer with cross-functional experience in building customer-centric, scalable solutions. I enjoy working on cutting-edge technologies that solve real-world problems.</p>
-    </section>
+  <!-- Hero -->
+  <main id="top" class="hero">
+    <div class="container hero-wrap">
+      <div>
+        <span class="kicker">Product Engineer • Quality Engineering • System Design</span>
+        <h1 class="h1">Building reliable, data-driven products that scale to millions.</h1>
+        <p class="sub">
+          Product-focused Software Engineer & QE at Bark.com. I ship features end-to-end, automate quality,
+          and drive measurable outcomes across EMEA/APAC/AMER.
+        </p>
+        <div class="hero-cta">
+          <a class="btn primary" href="mailto:gospeloquong@gmail.com">Let’s talk</a>
+          <a class="btn" href="https://github.com/gospeloquong" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/gospelhope-oquong" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://gospeloquong.github.io" target="_blank" rel="noopener">Portfolio</a>
+        </div>
+        <div class="badges">
+          <span class="badge">AWS Certified Developer</span>
+          <span class="badge">Azure Fundamentals</span>
+          <span class="badge">ScrumMaster</span>
+          <span class="badge">3M+ DAUs impact</span>
+        </div>
+      </div>
 
-    <section id="education" class="container">
-        <h2>Education</h2>
-        <div class="card">
-            <h3>University of Hertfordshire <span>(2020 - 2023)</span></h3>
-            <p>Bachelor’s Degree in Software Engineering with a minor in Computer Science.</p>
+      <!-- Quick stats card -->
+      <aside class="card reveal">
+        <div class="section-head">
+          <h2 class="h2">Snapshot</h2>
+          <span class="hint">Highlights</span>
         </div>
-    </section>
+        <ul class="compact">
+          <li>Launched features increasing engagement by <strong>40%</strong>, cut latency & tech debt by <strong>25%</strong>.</li>
+          <li>Automated CI/CD checks with Cypress—reduced regressions by <strong>25%</strong>, prod bugs by <strong>50%</strong>.</li>
+          <li>Data-driven decisions, feature experimentation, and CX strategy at scale.</li>
+        </ul>
+      </aside>
+    </div>
+  </main>
 
-    <section id="experience" class="container">
-        <h2>Experience</h2>
-        <div class="card">
-            <h3>Bark.com, London, UK <span>(June 2024 - Present)</span></h3>
-            <p>Developed and executed automated test frameworks for cloud-based platforms with 3 million daily active users, ensuring high reliability and performance. Improved test coverage by 30% and reduced critical bugs by 60%, enhancing user experience and engagement by 35%.</p>
-        </div>
-        <div class="card">
-            <h3>Bark.com, London, UK <span>(Nov 2023 - Present)</span></h3>
-            <p>Product Expert; Conducted manual testing and evaluation of the platform, identifying and logging bug requests for
-software updates across the CX team.</p>
-        </div>
-        <div class="card">
-            <h3>Toyota, Lagos, Nigeria <span>(May 2020 - Aug 2020)</span></h3>
-            <p>Developed robust object-oriented code in Java, refactored JavaScript codebases, and maintained REST APIs for marketing systems.</p>
-        </div>
-        <div class="card">
-            <h3>Nestle PLC, Lagos, Nigeria <span>(June 2019 - Aug 2019)</span></h3>
-            <p>Managed client inquiries, improved onboarding processes, and enhanced team performance through streamlined troubleshooting.</p>
-        </div>
-    </section>
-
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <div class="skills-section">
-            <div class="skill-group">
-                <h3>Technical Skills</h3>
-                <ul>
-                    <li>JavaScript, TypeScript, Python, Java</li>
-                    <li>AWS, Microsoft Azure</li>
-                    <li>RESTful API Design, CI/CD, Selenium</li>
-                </ul>
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="h2">Experience</h2>
+        <span class="hint">Selected roles</span>
+      </div>
+      <div class="grid grid-2">
+        <div class="card reveal">
+          <div class="timeline">
+            <div class="item">
+              <span class="dot"></span>
+              <h3>Bark.com — Software Quality Engineer (Product) <small style="color:var(--muted);font-weight:500;">Jun 2024 – Sep 2025 • London</small></h3>
+              <ul class="compact">
+                <li>Co-defined user stories, KPIs & MVPs across marketplace, identity, payments.</li>
+                <li>Co-designed Cypress automation & CI/CD gates with SDET → <strong>−25% regression/latency</strong>.</li>
+                <li>Shipped accessible features driving <strong>+40% user engagement</strong>.</li>
+                <li>Instituted automated verification for internet services → <strong>−50% prod bugs</strong>.</li>
+              </ul>
             </div>
-            <div class="skill-group">
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Agile Methodologies</li>
-                    <li>Problem-Solving, Critical Thinking</li>
-                    <li>Collaboration, Communication</li>
-                </ul>
+            <div class="item">
+              <span class="dot"></span>
+              <h3>Bark.com — Senior CX & Product Ops <small style="color:var(--muted);font-weight:500;">May 2023 – Jun 2024 • London</small></h3>
+              <ul class="compact">
+                <li>~46 customer connection sessions weekly; routed insights to product roadmap.</li>
+                <li>Managed reputation & payments governance across NA/EMEA/APAC → <strong>94% SLA</strong>.</li>
+                <li>Reduced disputes/refunds by <strong>25%</strong>; drove revenue &gt; <strong>£137,400</strong>.</li>
+                <li>Maintained ~<strong>33% MoM</strong> seller retention.</li>
+              </ul>
             </div>
+          </div>
         </div>
-    </section>
 
-   <section id="projects" class="container">
-    <h2>Projects</h2>
-
-    <div class="card">
-        <h3>Expense Tracker Application</h3>
-        <p>A comprehensive expense tracker application built with JavaScript and integrated with real-time data storage. 
-        <a href="https://github.com/gospeloquong/final-year-project" target="_blank">View on GitHub</a></p>
-    </div>
-
-    <div class="card">
-        <h3>Vinted E2E Tests</h3>
-        <p>End-to-end test automation suite for Vinted, ensuring a seamless user experience through robust Cypress tests.</p>
-    </div>
-
-    <div class="card">
-        <h3>Fotoshop Application Modification</h3>
-        <p>Enhanced and modified the Fotoshop application, improving functionality, UI, and overall performance.</p>
-    </div>
-
-    <div class="card">
-        <h3>ASOS E2E Tests</h3>
-        <p>Automated testing suite for ASOS, verifying critical user journeys using Cypress to maintain site reliability.</p>
-    </div>
-
-    <p>All projects can be found on my GitHub: <a href="https://github.com/gospeloquong" target="_blank">github.com/gospeloquong</a></p>
-</section>
-
-
-    <section id="hobbies" class="container">
-        <h2>Hobbies & Activities</h2>
-        <p>I enjoy connecting with artists and fans in the music industry, traveling to new places, and engaging in customer-centric solutions. Check out my work on <a href="https://github.com/gospeloquong" target="_blank">GitHub</a> and my <a href="https://gospeloquong.github.io" target="_blank">portfolio</a>.</p>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>Contact: <a href="mailto:gospeloquong@gmail.com">gospeloquong@gmail.com</a></p>
-            <p><a href="https://www.linkedin.com/in/gospelhope-oquong" target="_blank">LinkedIn</a> | <a href="https://github.com/gospeloquong" target="_blank">GitHub</a></p>
+        <div class="card reveal">
+          <div class="timeline">
+            <div class="item">
+              <span class="dot"></span>
+              <h3>GoodShape — Software Engineer (Co-op) <small style="color:var(--muted);font-weight:500;">Oct 2021 – Feb 2022 • London</small></h3>
+              <ul class="compact">
+                <li>Integrated third-party APIs into CRM → <strong>+15%</strong> sync/storage performance.</li>
+                <li>Contributed to automated testing → <strong>−50% production defects</strong>.</li>
+                <li>Participated in sprints & reviews; aligned delivery with agile best practices.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <span class="dot"></span>
+              <h3>Toyota — Software Engineer Intern <small style="color:var(--muted);font-weight:500;">May 2020 – Aug 2020 • Abuja</small></h3>
+              <ul class="compact">
+                <li>Built & tested scalable Java apps; supported AWS server updates.</li>
+                <li>Refactored JS → <strong>−12% duplicate code</strong>; improved REST API docs.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <span class="dot"></span>
+              <h3>Nestlé PLC — Program Manager Intern <small style="color:var(--muted);font-weight:500;">Jun 2019 – Aug 2019 • Lagos</small></h3>
+              <ul class="compact">
+                <li>Resolved <strong>&gt;97%</strong> client issues; redesigned onboarding → from 1 month to 2 weeks.</li>
+                <li><strong>+20%</strong> team performance via process simplification & documentation.</li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div> <!-- grid -->
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="h2">Projects</h2>
+        <span class="hint">Selected work</span>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card project reveal">
+          <h3>Expense Tracker Application</h3>
+          <p>Full-stack tracker with real-time persistence & clean, testable modules.</p>
+          <a href="https://github.com/gospeloquong/final-year-project" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="card project reveal">
+          <h3>ASOS E2E Tests</h3>
+          <p>Critical-path automation with Cypress validating core user journeys & reliability.</p>
+        </article>
+
+        <article class="card project reveal">
+          <h3>Vinted E2E Tests</h3>
+          <p>Robust Cypress suite to protect UX flows and surface regressions early.</p>
+        </article>
+
+        <article class="card project reveal">
+          <h3>Fotoshop Application</h3>
+          <p>Feature enhancements, UI refinements, and performance uplift for legacy app.</p>
+        </article>
+
+        <article class="card project reveal">
+          <h3>AI-Powered CX Insights (Concept)</h3>
+          <p>Lightweight pipeline to cluster feedback, prioritize backlog, and track impact.</p>
+        </article>
+
+        <article class="card project reveal">
+          <h3>System Design Notes</h3>
+          <p>Concise patterns for high-throughput, observable, and testable services.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="h2">Skills & Tools</h2>
+        <span class="hint">What I use</span>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="card reveal">
+          <h3>Programming</h3>
+          <div class="stack" style="margin-top:10px;">
+            <span class="chip">JavaScript</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Python</span>
+            <span class="chip">Java</span>
+            <span class="chip">SQL</span>
+            <span class="chip">React</span>
+            <span class="chip">HTML/CSS</span>
+          </div>
+          <h3 style="margin-top:18px;">Platforms</h3>
+          <div class="stack" style="margin-top:10px;">
+            <span class="chip">AWS</span>
+            <span class="chip">Azure</span>
+            <span class="chip">CI/CD</span>
+            <span class="chip">Selenium</span>
+            <span class="chip">Cypress</span>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <h3>Product & QE</h3>
+          <div class="stack" style="margin-top:10px;">
+            <span class="chip">Product Discovery</span>
+            <span class="chip">System Design</span>
+            <span class="chip">Software Testing</span>
+            <span class="chip">Experimentation</span>
+            <span class="chip">Data Analysis</span>
+            <span class="chip">Risk & Governance</span>
+            <span class="chip">Stakeholder Management</span>
+            <span class="chip">User Research</span>
+            <span class="chip">Release Management</span>
+          </div>
+          <h3 style="margin-top:18px;">Tools</h3>
+          <div class="stack" style="margin-top:10px;">
+            <span class="chip">VS Code</span>
+            <span class="chip">Azure DevOps</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">Jira</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">Tableau</span>
+            <span class="chip">Figma</span>
+            <span class="chip">Microsoft 365</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="h2">Education</h2>
+        <span class="hint">Degrees & certs</span>
+      </div>
+      <div class="grid grid-2">
+        <div class="card reveal">
+          <h3>Northeastern University — M.S. Informatics</h3>
+          <p class="sub" style="margin:6px 0 0;">Boston, MA • <strong>Expected May 2027</strong></p>
+        </div>
+        <div class="card reveal">
+          <h3>University of Hertfordshire — B.Sc. Computer Science (Software Engineering)</h3>
+          <p class="sub" style="margin:6px 0 0;">Hatfield, UK</p>
+        </div>
+        <div class="card reveal">
+          <h3>Certifications</h3>
+          <ul class="compact">
+            <li>AWS Certified Developer</li>
+            <li>Microsoft Azure Fundamentals</li>
+            <li>ScrumMaster Certified</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="h2">Contact</h2>
+        <span class="hint">Let’s build</span>
+      </div>
+      <div class="card reveal center">
+        <p class="sub">Email is best. I’m open to product engineering, QE, and platform quality roles.</p>
+        <div class="hero-cta" style="justify-content:center;">
+          <a class="btn primary" href="mailto:gospeloquong@gmail.com">gospeloquong@gmail.com</a>
+          <a class="btn" href="https://www.linkedin.com/in/gospelhope-oquong" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/gospeloquong" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container center">
+      <div class="links">
+        <a href="#top">Back to top ↑</a>
+        <a href="https://gospeloquong.github.io" target="_blank" rel="noopener">Portfolio</a>
+        <a href="https://github.com/gospeloquong" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:gospeloquong@gmail.com">Email</a>
+      </div>
+      <p style="margin-top:14px;">© <span id="year"></span> Gospelhope Oquong</p>
+    </div>
+  </footer>
+
+  <!-- Tiny JS: theme + reveal -->
+  <script>
+    // Persisted theme
+    (function initTheme(){
+      const saved = localStorage.getItem('theme');
+      if (saved === 'light') document.documentElement.classList.add('light');
+    })();
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      const el = document.documentElement;
+      const isLight = el.classList.toggle('light');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
+
+    // Reveal on scroll
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
